@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".DeliveredOrders">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/toolbarDelivered"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="#42C3BF"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Delivered Orders"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/recyclerDelivered"
+        android:layout_below="@+id/toolbarDelivered"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

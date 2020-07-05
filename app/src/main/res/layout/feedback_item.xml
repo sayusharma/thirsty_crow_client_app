@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="@drawable/text_back"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:text="Subject : "
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                android:id="@+id/textSubject"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:text="Order not delivered "
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Description : "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_marginRight="10dp"
+            android:id="@+id/textDesc"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="adadwasd bba hbhba bhb hbsafbh bfhbh abjab fj bahjbhjafhbJ AAJBA JBJAB HABFJBFAJB HBF JHABJ BJABJB BA J"
+            android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Complaint/Feedback By :"
+                android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/textComName"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Ayush Sharma"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/textComPhone"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="+918077919303"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

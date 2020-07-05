@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Thirsty Crow - Client App</string>
+    <string-array name="time_interval">
+        <item>Select Time Interval</item>
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>Last 3 days</item>
+        <item>This Month</item>
+    </string-array>
+</resources>
